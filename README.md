@@ -38,5 +38,5 @@ Halaman ini dibuat untuk latihan PABW Pertemuan 4. Isi halaman berupa daftar gam
 | `--text-3xl`    | `2.25rem`  | judul halaman                           |
 
 
-#Kriteria Selesai
+### Kriteria Selesai
 Mengubah nilai --color-primary di tokens.css akan otomatis mengubah warna tombol, tautan, dan elemen utama pada halaman.
