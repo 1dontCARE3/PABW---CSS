@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Game Favorit</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="komponen.css">
+  <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+  <header>
+    <div class="header-baris">
+      <h1>List Game Favorit</h1>
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#bagian-1">List Game Favorit</a></li>
+          <li><a href="#bagian-2">Daftar Game</a></li>
+          <li><a href="#bagian-3">Review Game</a></li>
+        </ul>
+      </nav>
+      <input type="checkbox" id="tema" class="pengalih-tema">
+      <label for="tema" class="tombol-tema">Tema gelap</label>
+    </div>
+  </header>
+
+  <p class="deskripsi">Halaman ini berisi daftar game yang saya sukai dan sering dimainkan, lengkap dengan informasi genre, platform, dan alasan saya menyukai game tersebut.</p>
+
+  <main>
+    <section id="bagian-1">
+      <h2>List Game Favorit</h2>
+      <div class="katalog">
+        <article class="kartu">
+          <figure>
+            <img src="ML.webp" alt="Gambar Mobile Legends" loading="lazy">
+            <figcaption>Mobile Legends adalah salah satu game favorit saya karena membuat kita berpikir untuk membuat strategi yang kokoh agar bisa menang.</figcaption>
+          </figure>
+        </article>
+        <article class="kartu">
+          <figure>
+            <img src="roblox.webp" alt="Gambar Roblox" loading="lazy">
+            <figcaption>Roblox adalah game yang sering saya mainkan pada waktu luang karena memiliki gameplay yang menyenangkan dan dapat dimainkan bersama teman.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section id="bagian-2">
+      <h2>Daftar Game</h2>
+      <table>
+        <caption>Tabel Biodata Game</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tahun</th>
+            <th scope="col">Nama Game</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">2016</th><td>Mobile Legends</td><td>MOBA</td><td>99</td></tr>
+          <tr><th scope="row">2011</th><td>Minecraft</td><td>PC</td><td>95</td></tr>
+          <tr><th scope="row">2020</th><td>Roblox</td><td>RPG</td><td>96</td></tr>
+          <tr><th scope="row">2017</th><td>PUBG</td><td>FPS</td><td>90</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="bagian-3">
+      <h2>Review Game</h2>
+      <form action="/simpan" method="post">
+        <div class="form-kolom">
+          <label for="nama-game">Nama Game</label>
+          <input type="text" id="nama-game" name="nama-game" required>
+          <span class="pesan-galat">Nama game wajib diisi.</span>
+        </div>
+
+        <div class="form-kolom">
+          <label for="tahun">Tahun Rilis</label>
+          <input type="number" id="tahun" name="tahun" min="1970" max="2026" required>
+          <span class="pesan-galat">Tahun rilis harus diisi dengan benar.</span>
+        </div>
+
+        <div class="form-kolom">
+          <label for="rating">Rating</label>
+          <input type="number" id="rating" name="rating" min="1" max="100" required>
+          <span class="pesan-galat">Rating harus berada antara 1 sampai 100.</span>
+        </div>
+
+        <button type="submit">Simpan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hilmy Qabus · 25523111 · 2026</p>
+  </footer>
+</body>
+</html>
