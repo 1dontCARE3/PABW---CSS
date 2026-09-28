@@ -1,0 +1,25 @@
+/* Tema gelap mengikuti pengaturan sistem */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0F172A;
+    --color-fg: #E2E8F0;
+    --color-surface: #1E293B;
+    --color-border: #334155;
+    --color-primary: #7DA9F7;
+    --color-danger: #FF8A8A;
+    --color-focus: #FFC000;
+    --shadow-1: 0 1px 3px rgb(0 0 0 / 0.45);
+  }
+}
+
+/* Pilihan manual ditulis setelah media query */
+:root:has(#tema:checked) {
+  --color-bg: #0F172A;
+  --color-fg: #E2E8F0;
+  --color-surface: #1E293B;
+  --color-border: #334155;
+  --color-primary: #7DA9F7;
+  --color-danger: #FF8A8A;
+  --color-focus: #FFC000;
+  --shadow-1: 0 1px 3px rgb(0 0 0 / 0.45);
+}
