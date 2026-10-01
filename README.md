@@ -1,5 +1,6 @@
 # Pertemuan 4 -- Desain Token Halaman Profil
 # Pertemuan 5 -- Layout Modern: Flexbox dan Grid
+# Pertemuan 6 -- Responsif Mobile-First
 
 Halaman ini dibuat untuk latihan PABW Pertemuan 4. Isi halaman berupa daftar game favorit, tabel informasi game, dan form untuk memberikan review game.
 
