@@ -1,0 +1,36 @@
+
+.isi {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "sisi"
+    "utama";
+}
+
+.galeri {
+  grid-template-columns: 1fr;
+}
+
+/* ===== Tablet: galeri dua kolom ===== */
+@media (min-width: 48rem) {
+  .galeri { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== Desktop: sidebar bersanding dengan konten ===== */
+@media (min-width: 60rem) {
+  .isi {
+    grid-template-columns: 16rem 1fr;
+    grid-template-areas: "sisi utama";
+  }
+  .galeri { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ===== Isi yang menyesuaikan ===== */
+img { max-width: 100%; height: auto; }
+
+.table-wrap { overflow-x: auto; }
+.table-wrap table { min-width: 36rem; }
+
+main, section, .kartu, .kartu__isi { min-width: 0; }
+.kartu__judul, figcaption, td, th { overflow-wrap: anywhere; }
+
+p { font-size: 1rem; line-height: 1.6; }
