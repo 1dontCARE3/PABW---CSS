@@ -1,0 +1,33 @@
+[
+    {
+    "id": 1,
+    "nama": "Mobile Legends",
+    "tahun": 2016,
+    "genre": "MOBA",
+    "rating": 99
+  },
+    {
+    "id": 2,
+    "nama": "Roblox",
+    "tahun": 2011,
+    "genre": "RPG",
+    "rating": 96
+    },
+
+    {
+    "id": 3,
+    "nama": "Minecraft",
+    "tahun": 2011,
+    "genre": "PC",
+    "rating": 95
+    },
+
+    {
+    "id": 4,
+    "nama": "PUBG",
+    "tahun": 2017,
+    "genre": "FPS",
+    "rating": 90
+    }
+]
+
