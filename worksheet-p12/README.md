@@ -1,6 +1,6 @@
 # worksheet-p12 — Pertemuan 12: Build Tooling, npm, dan Framework SPA
 
-## Perkakas (Lembar A)
+## Keterangan
 - `node -v` : v26.12.1
 - `npm -v`  : 11.20.0
 
